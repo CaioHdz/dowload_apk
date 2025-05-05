@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download do App</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-green-100 to-blue-200 min-h-screen flex items-center justify-center px-4">
+
+  <div class="bg-white rounded-2xl shadow-xl p-8 max-w-xl w-full text-center">
+    <img src="../images/logo.png" alt="Logo" class="w-24 mx-auto mb-4">
+    <h1 class="text-2xl font-bold text-gray-800 mb-2">Baixe o App Formulário Técnico</h1>
+    <p class="text-gray-600 mb-6">Clique no botão ou escaneie o QR Code para baixar o APK.</p>
+
+    <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+      <a href="https://expo.dev/artifacts/eas/dxhsu7rKeAvcUQkB7Fht83.apk" 
+         class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full transition" 
+         download>
+        📥 Baixar APK
+      </a>
+
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://expo.dev/artifacts/eas/dxhsu7rKeAvcUQkB7Fht83.apk" 
+           alt="QR Code para download do APK" 
+           class="w-40 h-40 border rounded-lg shadow-md">
+    </div>
+
+    <p class="mt-6 text-sm text-gray-400">Versão 1.0.0 • Atualizado em Maio/2025</p>
+  </div>
+
+</body>
+</html>
